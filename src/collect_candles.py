@@ -5,7 +5,7 @@ from database.candle_repository import save_minute_candles
 def main():
     market = "KRW-BTC"
     unit = 1
-    count = 10
+    count = 200
 
     client = UpbitClient()
 
